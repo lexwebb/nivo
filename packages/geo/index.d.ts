@@ -82,7 +82,7 @@ declare module '@nivo/geo' {
     export interface ChoroplethBoundFeature {
         label: string
         value: number
-        formattedValue: 'string | number'
+        formattedValue: string | number
         color: string
         data: any
     }
